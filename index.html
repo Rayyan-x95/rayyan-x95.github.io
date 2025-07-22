@@ -3,41 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M Mohammed Rayyan | Developer & Creative</title>
+    <title>M Mohammed Rayyan | Web Developer & Graphic Designer</title>
     <meta name="description" content="Portfolio of M Mohammed Rayyan - Computer Science student, video editor, and 3D artist">
     <meta name="keywords" content="portfolio, developer, video editor, 3D artist, graphic designer">
-    <meta name="version" content="1.2.0">
+    <meta name="version" content="1.0">
     
-    <!-- Dynamic Meta Tags -->
-    <meta property="og:title" content="M Mohammed Rayyan | Creative Developer">
-    <meta property="og:description" content="Portfolio showcasing development and creative work">
+    <!-- Improved Dynamic Meta Tags -->
+    <meta property="og:title" content="M Mohammed Rayyan | Web Developer & Graphic Designer">
+    <meta property="og:description" content="Portfolio showcasing development and creative work in programming, video editing, and 3D design">
     <meta property="og:image" content="https://github.com/Rayyan-x95.png?size=1200">
-    <meta property="og:url" content="https://yourportfolio.com">
+    <meta property="og:url" content="https://rayyan-x95.github.io/">
+    <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="canonical" href="https://yourportfolio.com" />
-    
-    <!-- Preload critical resources -->
-    <link rel="preload" href="https://github.com/Rayyan-x95.png?size=150" as="image">
+    <meta name="twitter:creator" content="@rayyan_x95">
+    <link rel="canonical" href="https://rayyan-x95.github.io/" />
+
+    <!-- Optimized Preloads -->
+    <link rel="preload" href="https://github.com/Rayyan-x95.png?size=150" as="image" fetchpriority="high">
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Poppins:wght@400;700&display=swap" as="style">
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <!-- PWA -->
     <link rel="manifest" href="/manifest.webmanifest">
     <meta name="theme-color" content="#6C63FF">
     
-    <!-- Structured Data -->
+    <!-- Improved Structured Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "M Mohammed Rayyan",
-        "jobTitle": "Web-Developer & Graphic Designer",
+        "jobTitle": "Web Developer & Graphic Designer",
         "url": "https://Rayyan-x95.github.io",
+        "image": "https://github.com/Rayyan-x95.png",
+        "description": "Computer Science student specializing in development, video editing, and 3D design",
         "sameAs": [
             "https://github.com/Rayyan-x95",
             "https://linkedin.com/in/mohammed-rayyan1948/",
@@ -46,7 +50,11 @@
             "https://instagram.com/Rayyan.x95",
             "https://dribbble.com/NINETY5_DESIGNS",
             "https://behance.net/mmohammedrayyan"
-        ]
+        ],
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Dhaanish Ahmed College of Engineering"
+        }
     }
     </script>
     
@@ -80,6 +88,10 @@
             padding: 0;
         }
         
+        html {
+            scroll-behavior: smooth;
+        }
+        
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
             margin: 0;
@@ -99,11 +111,6 @@
         body.light-mode {
             color: var(--light-text);
             background: var(--light-bg);
-        }
-        
-        /* Smooth scrolling */
-        html {
-            scroll-behavior: smooth;
         }
         
         /* Animated Gradient Header */
@@ -210,15 +217,15 @@
             transform: scale(1.1);
         }
         
-        h1, h2, h3 {
+        h1, h2, h3, h4 {
             font-family: 'Poppins', sans-serif;
             font-weight: 700;
             letter-spacing: -0.03em;
+            margin: 0;
         }
         
         h1 {
             font-size: clamp(2.5rem, 5vw, 3.5rem);
-            margin: 0;
             color: white;
             text-shadow: 0 2px 10px rgba(0,0,0,0.2);
             animation: fadeInUp 1s ease;
@@ -1289,10 +1296,10 @@
     <header>
         <div class="container">
             <div class="header-profile">
-                <img src="https://github.com/Rayyan-x95.png?size=150" alt="M Mohammed Rayyan" loading="lazy">
+                <img src="https://github.com/Rayyan-x95.png?size=150" alt="M Mohammed Rayyan" loading="lazy" width="150" height="150">
             </div>
             <h1>M Mohammed Rayyan</h1>
-            <p class="subtitle">Developer & Creative Technologist</p>
+            <p class="subtitle">Web Developer & Graphic Designer</p>
         </div>
     </header>
 
@@ -1654,7 +1661,7 @@
                 <!-- Experience 2 -->
                 <div class="timeline-item">
                     <div class="timeline-circle"></div>
-                    <div class="timeline-date">2022 - Present</div>
+                    <div class="timeline-date">2023 - Present</div>
                     <div class="timeline-content">
                         <h3 class="job-title">3D Modeling Artist</h3>
                         <p class="company">Personal Projects</p>
@@ -1674,19 +1681,19 @@
                 <!-- Experience 3 -->
                 <div class="timeline-item">
                     <div class="timeline-circle"></div>
-                    <div class="timeline-date">2021 - Present</div>
+                    <div class="timeline-date">2024 - Present</div>
                     <div class="timeline-content">
-                        <h3 class="job-title">Programming Projects</h3>
-                        <p class="company">Academic & Personal</p>
+                        <h3 class="job-title">Founder & Lead Graphic Designer</h3>
+                        <p class="company">Ninety5</p>
                         <p class="job-description">
-                            Developing various applications and solving problems through code. Working on projects ranging from 
-                            simple utilities to more complex systems, primarily using Python and Java.
+                            Leading creative direction, branding, and UI/UX design using Adobe CC and Figma.
+                            Crafting bold visuals and intuitive digital experiences with a focus on clarity, style, and impact.
                         </p>
                         <div class="job-skills">
-                            <span class="job-skill">Python</span>
-                            <span class="job-skill">Java</span>
-                            <span class="job-skill">C++</span>
-                            <span class="job-skill">Problem Solving</span>
+                            <span class="job-skill">Adobe Photoshop</span>
+                            <span class="job-skill">Typography</span>
+                            <span class="job-skill">Blender</span>
+                            <span class="job-skill">DaVinci Resolve</span>
                         </div>
                     </div>
                 </div>
@@ -1724,7 +1731,7 @@
                 <div class="education-card">
                     <h3 class="degree">BE in Computer Science</h3>
                     <p class="university">Dhaanish Ahmed College of Engineering</p>
-                    <span class="education-date">2023 - Present</span>
+                    <span class="education-date">2025 - Present</span>
                     <p class="education-description">
                         Currently pursuing my Bachelor's degree in Computer Science with focus on software development, 
                         algorithms, and computer systems. Actively participating in coding competitions and tech workshops.
@@ -1735,7 +1742,7 @@
                 <div class="education-card">
                     <h3 class="degree">DaVinci Resolve Certification</h3>
                     <p class="university">Blackmagic Design</p>
-                    <span class="education-date">2022</span>
+                    <span class="education-date">2023</span>
                     <p class="education-description">
                         Completed professional training in DaVinci Resolve for video editing, color correction, and visual effects. 
                         Certified in both editing and color grading workflows.
@@ -1744,12 +1751,12 @@
                 
                 <!-- Education 3 -->
                 <div class="education-card">
-                    <h3 class="degree">Blender 3D Masterclass</h3>
+                    <h3 class="degree">Data Analytics</h3>
                     <p class="university">Online Certification</p>
-                    <span class="education-date">2021</span>
+                    <span class="education-date">2025</span>
                     <p class="education-description">
-                        Completed comprehensive training in Blender for 3D modeling, texturing, lighting, and animation. 
-                        Developed skills in creating realistic 3D assets and environments.
+                        Completed comprehensive training in data analytics, including data visualization, statistical analysis, and machine learning. 
+                        Developed skills in using tools like Python, R, and SQL for data-driven decision making.
                     </p>
                 </div>
                 
@@ -1821,7 +1828,7 @@
                 <a href="#education">Education</a>
                 <a href="#contact">Contact</a>
             </div>
-            <p>&copy; 2024 M Mohammed Rayyan. All rights reserved. Crafted with <i class="fas fa-heart" style="color: #ff4757;"></i></p>
+            <p>&copy; 2025 M Mohammed Rayyan. All rights reserved. Crafted with <i class="fas fa-heart" style="color: #ff4757;"></i></p>
             <a href="#" class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i> Back to Top</a>
         </div>
     </footer>
@@ -2012,6 +2019,6 @@
     </script>
     
     <!-- Web Vitals Polyfill -->
-    <script src="https://unpkg.com/web-vitals/dist/web-vitals.iife.js"></script>
+    <script src="https://unpkg.com/web-vitals@3.0.0/dist/web-vitals.iife.js" crossorigin="anonymous"></script>
 </body>
-</html>
+</html> 
