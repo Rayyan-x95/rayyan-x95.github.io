@@ -57,4 +57,3 @@ A modern, responsive portfolio website showcasing my skills as a developer and c
 5. **PWA Ready**
    - Service worker setup
    - Web manifest for installability
-

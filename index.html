@@ -20,13 +20,13 @@
     
     <!-- Preloads -->
     <link rel="preload" href="https://github.com/Rayyan-x95.png?size=150" as="image" fetchpriority="high">
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Poppins:wght@400;700&display=swap" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" as="style">
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style">
     
     <!-- Fonts & Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <!-- PWA -->
@@ -106,17 +106,17 @@
             --card-shadow-hover: 0 8px 24px rgba(0,0,0,0.2);
             
             /* Typography */
-            --large-title: 600 34px/41px -apple-system, BlinkMacSystemFont, sans-serif;
-            --title-1: 600 28px/34px -apple-system, BlinkMacSystemFont, sans-serif;
-            --title-2: 600 22px/28px -apple-system, BlinkMacSystemFont, sans-serif;
-            --title-3: 600 20px/25px -apple-system, BlinkMacSystemFont, sans-serif;
-            --headline: 600 17px/22px -apple-system, BlinkMacSystemFont, sans-serif;
-            --body: 400 17px/22px -apple-system, BlinkMacSystemFont, sans-serif;
-            --callout: 400 16px/21px -apple-system, BlinkMacSystemFont, sans-serif;
-            --subhead: 400 15px/20px -apple-system, BlinkMacSystemFont, sans-serif;
-            --footnote: 400 13px/18px -apple-system, BlinkMacSystemFont, sans-serif;
-            --caption-1: 400 12px/16px -apple-system, BlinkMacSystemFont, sans-serif;
-            --caption-2: 400 11px/13px -apple-system, BlinkMacSystemFont, sans-serif;
+            --large-title: 600 34px/41px 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --title-1: 600 28px/34px 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --title-2: 600 22px/28px 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --title-3: 600 20px/25px 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --headline: 600 17px/22px 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --body: 400 17px/22px 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --callout: 400 16px/21px 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --subhead: 400 15px/20px 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --footnote: 400 13px/18px 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --caption-1: 400 12px/16px 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --caption-2: 400 11px/13px 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
             
             /* Spacing */
             --spacing-1: 4px;
@@ -171,6 +171,7 @@
             background: var(--system-background);
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
         }
         
         body {
@@ -183,6 +184,7 @@
             transition: var(--transition-smooth);
             overflow-x: hidden;
             visibility: hidden;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
         }
         
         body.loaded {
@@ -199,6 +201,7 @@
             padding: 8px;
             z-index: 100;
             transition: top 0.3s;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
         }
         
         .skip-link:focus {
@@ -388,7 +391,7 @@
         
         /* Typography */
         h1, h2, h3, h4 {
-            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
             font-weight: 600;
             letter-spacing: -0.03em;
             margin: 0;
@@ -532,6 +535,7 @@
             transition: var(--transition-smooth);
             padding: var(--spacing-2) var(--spacing-3);
             border-radius: 50px;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
         }
         
         .nav-links a::after {
@@ -644,6 +648,7 @@
             line-height: 1.7;
             margin-bottom: 1.2em;
             color: var(--label-primary);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
         }
         
         /* Skills Section */
@@ -1264,6 +1269,7 @@
             transition: var(--transition-smooth);
             padding: var(--spacing-2) var(--spacing-3);
             border-radius: 50px;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
         }
         
         .footer-links a:hover,
@@ -1288,6 +1294,7 @@
             padding: var(--spacing-2) var(--spacing-4);
             border-radius: 50px;
             background: rgba(0, 122, 255, 0.1);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
         }
         
         .back-to-top.visible {
@@ -1332,6 +1339,7 @@
             color: var(--label-primary);
             font: var(--callout);
             margin-top: var(--spacing-3);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
         }
         
         /* Scroll Progress Indicator */
@@ -1363,6 +1371,7 @@
             transition: var(--transition-bounce);
             max-width: calc(100% - 40px);
             text-align: center;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
         }
         
         .notification.show {
@@ -1431,6 +1440,7 @@
             z-index: 1000;
             display: none;
             font: var(--callout);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
         }
         
         /* View Transitions */
